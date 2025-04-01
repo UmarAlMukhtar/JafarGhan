@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advocate Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav id="navbar">
+          <div class="logo">
+            <h1>Adv. Jafar Ghan</h1>
+            <p>Advocate & Legal Consultant</p>
+          </div>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav-menu">
+            <li>
+              <a href="#home" class="active" data-trans="nav-home">Home</a>
+            </li>
+            <li><a href="#about" data-trans="nav-about">About</a></li>
+            <li>
+              <a href="#practice-areas" data-trans="nav-practice"
+                >Practice Areas</a
+              >
+            </li>
+            <li>
+              <a href="#achievements" data-trans="nav-achievements"
+                >Achievements</a
+              >
+            </li>
+            <li><a href="#contact" data-trans="nav-contact">Contact</a></li>
+            <li><a href="#blog" data-trans="nav-blog">Blog</a></li>
+          </ul>
+          <div class="header-controls">
+            <div class="language-toggle">
+              <button id="language-btn" aria-label="Change language">
+                <span id="current-lang">EN</span>
+                <i class="fas fa-globe"></i>
+              </button>
+            </div>
+            <div class="theme-toggle">
+              <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content" data-aos="fade-up">
+          <div class="hero-text">
+            <h1 data-trans="hero-title">
+              Defending Justice, Protecting Rights
+            </h1>
+            <p data-trans="hero-description">
+              Specialized in criminal, civil, and corporate law with over 20
+              years of experience
+            </p>
+            <a href="#contact" class="btn" data-trans="hero-cta"
+              >Schedule a Consultation</a
+            >
+          </div>
+          <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+            <img src="lawyer.jpg" alt="Advocate Jafar Ghan" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-content">
+          <div class="about-image" data-aos="fade-right">
+            <img src="lawyer-profile.jpg" alt="Advocate Profile" />
+          </div>
+          <div class="about-text" data-aos="fade-left">
+            <h3>Professional Experience</h3>
+            <p>
+              With extensive legal practice since my enrollment in 2004, I've
+              dedicated my career to upholding justice and defending the rights
+              of my clients. My approach combines thorough legal knowledge with
+              strategic advocacy to achieve the best possible outcomes.
+            </p>
+
+            <h3>Education & Certifications</h3>
+            <ul>
+              <li>BSc LLB, Government Law College, Thrissur</li>
+              <li>Enrollment: 2004</li>
+              <li>Panel Lawyer</li>
+            </ul>
+
+            <h3>Professional Expertise</h3>
+            <ul>
+              <li>Criminal Law</li>
+              <li>Civil Litigation</li>
+              <li>Family Court Matters</li>
+              <li>Other Legal Consultations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="practice-areas" class="practice-areas">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Practice Areas</h2>
+        <div class="services-grid">
+          <div class="service-card" data-aos="zoom-in">
+            <i class="fas fa-gavel"></i>
+            <h3>Criminal Law</h3>
+            <p>
+              Defense against criminal charges, bail applications, and appeals
+              at all court levels.
+            </p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+            <i class="fas fa-balance-scale"></i>
+            <h3>Civil Law</h3>
+            <p>
+              Handling property disputes, contract matters, and civil litigation
+              with precision.
+            </p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+            <i class="fas fa-building"></i>
+            <h3>Corporate Law</h3>
+            <p>
+              Legal compliance, corporate structuring, and business contract
+              negotiations.
+            </p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+            <i class="fas fa-home"></i>
+            <h3>Family Law</h3>
+            <p>
+              Divorce proceedings, child custody, maintenance, and property
+              settlements.
+            </p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+            <i class="fas fa-handshake"></i>
+            <h3>Arbitration & Mediation</h3>
+            <p>
+              Alternative dispute resolution services with certified expertise.
+            </p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+            <i class="fas fa-file-contract"></i>
+            <h3>Documentation</h3>
+            <p>
+              Legal drafting, will preparation, and property document
+              verification.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Achievements & Cases</h2>
+
+        <div class="achievement-tabs">
+          <button class="tab-btn active" data-tab="notable-cases">
+            Notable Cases
+          </button>
+          <button class="tab-btn" data-tab="awards">
+            Awards & Recognition
+          </button>
+          <button class="tab-btn" data-tab="publications">Publications</button>
+        </div>
+
+        <div class="tab-content active" id="notable-cases" data-aos="fade-up">
+          <div class="case-study">
+            <h3>State vs. Reddy (2019)</h3>
+            <p>
+              Successfully defended in a high-profile criminal case resulting in
+              acquittal
+            </p>
+          </div>
+          <div class="case-study">
+            <h3>Sharma Property Dispute (2017)</h3>
+            <p>
+              Resolved a complex property dispute through strategic negotiation
+              and court proceedings
+            </p>
+          </div>
+          <div class="case-study">
+            <h3>Corporate Merger: XYZ & ABC Ltd. (2015)</h3>
+            <p>
+              Provided legal oversight for a major corporate merger valued at
+              $50M
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="awards" data-aos="fade-up">
+          <div class="award">
+            <h3>Distinguished Legal Service Award (2020)</h3>
+            <p>
+              Recognized by the Bar Association for excellence in legal practice
+            </p>
+          </div>
+          <div class="award">
+            <h3>Top 50 Lawyers (2018)</h3>
+            <p>Featured in Legal Times magazine's annual listing</p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="publications" data-aos="fade-up">
+          <div class="publication">
+            <h3>Modern Approaches to Criminal Defense</h3>
+            <p>Published in Law Review Journal (2019)</p>
+          </div>
+          <div class="publication">
+            <h3>Understanding Property Rights</h3>
+            <p>Co-authored textbook for law students (2016)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Client Testimonials</h2>
+        <div class="testimonial-slider" data-aos="fade-up">
+          <div class="testimonial active">
+            <p>
+              "Advocate Ghan's expertise and dedication were instrumental in
+              winning our case. His strategic approach and attention to detail
+              made all the difference."
+            </p>
+            <h4>- Rajesh Sharma, Business Owner</h4>
+          </div>
+          <div class="testimonial">
+            <p>
+              "Thorough, professional, and compassionate. I felt supported
+              throughout my legal proceedings and couldn't have asked for better
+              representation."
+            </p>
+            <h4>- Priya Patel, Client</h4>
+          </div>
+          <div class="testimonial">
+            <p>
+              "His knowledge of corporate law helped our startup navigate
+              complex legal waters. Highly recommended for businesses seeking
+              solid legal counsel."
+            </p>
+            <h4>- Vikram Singh, CEO</h4>
+          </div>
+          <div class="testimonial-controls">
+            <button id="prev-testimonial">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="next-testimonial">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+        <div class="contact-content">
+          <div class="contact-info" data-aos="fade-right">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Office Address</h3>
+                <p>123 Legal Chambers, Law Street<br />City Center, 400001</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>advocate@jafarghan.com</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-gavel"></i></a>
+            </div>
+          </div>
+          <div class="contact-form" data-aos="fade-left">
+            <form id="consultation-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>
+                    Select Service Required
+                  </option>
+                  <option value="criminal">Criminal Law</option>
+                  <option value="civil">Civil Law</option>
+                  <option value="corporate">Corporate Law</option>
+                  <option value="family">Family Law</option>
+                  <option value="arbitration">Arbitration & Mediation</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Brief Description of Your Case"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Schedule Consultation</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Latest Articles</h2>
+        <div class="blog-grid">
+          <div class="blog-card" data-aos="fade-up">
+            <div class="blog-img">
+              <img src="blog1.jpg" alt="Legal Rights" />
+            </div>
+            <div class="blog-content">
+              <span class="date">March 15, 2025</span>
+              <h3>Understanding Your Legal Rights</h3>
+              <p>
+                A comprehensive guide to citizen's rights and legal protections
+                available under law.
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="blog-img">
+              <img src="blog2.jpg" alt="Property Law" />
+            </div>
+            <div class="blog-content">
+              <span class="date">February 28, 2025</span>
+              <h3>Property Law: Essential Documents</h3>
+              <p>
+                Key documents everyone should maintain for property ownership
+                and transfer.
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="blog-img">
+              <img src="blog3.jpg" alt="Legal Tips" />
+            </div>
+            <div class="blog-content">
+              <span class="date">January 10, 2025</span>
+              <h3>5 Legal Tips for Small Businesses</h3>
+              <p>
+                Practical legal advice for entrepreneurs and small business
+                owners.
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="view-all-container">
+          <a href="#" class="btn">View All Articles</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Adv. Jafar Ghan</h2>
+            <p>Advocate & Legal Consultant</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#practice-areas">Practice Areas</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#blog">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Legal Chambers, City
+              Center
+            </p>
+            <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fas fa-envelope"></i> advocate@jafarghan.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Adv. Jafar Ghan. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
